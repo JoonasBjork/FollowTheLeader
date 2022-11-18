@@ -1,0 +1,84 @@
+.root {
+  -fx-font-size: 10pt;
+  -fx-color: #313131;
+  -fx-text-fill: white;
+}
+
+.label {
+  -fx-text-fill: white;
+}
+
+
+.menu-bar, .menu-item {
+  -fx-background-color: #313131;
+}
+
+.menu .label {
+  -fx-text-fill: white;
+}
+
+.menu-bar .menu-button:hover, .menu-bar .menu-button:focused, .menu-bar .menu-button:showing, .menu-item:hover {
+  -fx-background: #525252;
+  -fx-background-color: #525252;
+}
+
+.context-menu {
+  -fx-background-color: #313131;
+  -fx-border-width: 0px;
+}
+
+
+
+.slider {
+  -fx-color: #313131;
+}
+
+.slider .track {
+  -fx-background-color: #525252;
+}
+
+.slider .thumb {
+  -fx-color: #313131;
+}
+
+
+.button {
+  -fx-color: #525252;
+}
+
+
+.text-field {
+  -fx-background-color: #525252;
+  -fx-text-fill: white;
+}
+
+
+.tab-pane {
+  -fx-color: #313131;
+  -fx-background-color: #313131;
+  -fx-border-width: 0;
+}
+
+.tab {
+  -fx-background-color: #525252;
+  -fx-text-base-color: white;
+  -fx-focus-color: transparent;
+  -fx-faint-focus-color: transparent;
+}
+
+.tab:selected {
+  -fx-background-color: #313131;
+  -fx-text-fill: white;
+}
+
+.tab-header-background {
+  -fx-background-color: #212121;
+}
+
+.settings-pane {
+  -fx-background-color: #313131;
+}
+
+.simulation-pane, .editor-pane {
+  -fx-background-color: #525252;
+}

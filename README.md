@@ -3,6 +3,8 @@ Simulation based on the paper "Steering Behaviors For Autonomous Characters" by 
 
 Paper: http://www.red3d.com/cwr/steer/gdc99/
 
+This simulation was made as a university course project
+
 ## Summary
 The basic idea of the project is a simulation where a leader is followed by followers. The followers avoid getting in the way of the leader and hitting the leader. There are many different modes and variables to how the leader and followers act and how well they perform in their tasks.
 
